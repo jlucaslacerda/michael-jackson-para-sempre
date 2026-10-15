@@ -29,14 +29,30 @@ HTML = """
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Michael Jackson Para Sempre</title>
+
+
+}
+
 <style>
 * { box-sizing: border-box; }
+
 body {
     margin: 0;
-    background: #101010;
+    background: linear-gradient(-45deg, #101010, #1b1035, #080808, #251044);
+    background-size: 400% 400%;
+    animation: luzDoShow 12s ease infinite;
     color: white;
     font-family: Arial, sans-serif;
 }
+
+@keyframes luzDoShow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+   
+
 header {
     background: #050505;
     text-align: center;
@@ -133,7 +149,7 @@ function tocar(id, nome) {
 </html>
 """
 
-@app.route("/") 
+@app.route("/")
 def inicio():
     return render_template_string(HTML, musicas=musicas)
 

@@ -133,7 +133,7 @@ function tocar(id, nome) {
 </html>
 """
 
-@app.route("/")
+@app.route("/") 
 def inicio():
     return render_template_string(HTML, musicas=musicas)
 

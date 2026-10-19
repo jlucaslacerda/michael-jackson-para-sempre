@@ -15,13 +15,14 @@ musicas = [
     ("Black or White", "_8W4fEaPQh0"),
     ("Remember the Time", "bhLakTP8hu4"),
     ("The Way You Make Me Feel", "dh4VexRyCKE"), 
-    ("Don't Stop 'Til You Get Enough", "89NI6FVo8KA"),
+    ("Don't Stop 'Til You Get Enough", "89NI6FVo8KA"), 
     ("Human Nature (1988)", "zN0_6zjba9c"),  
     ("Blame It on the Boogie", "S1ZQkHdXHvQ"),  
     ("Wanna Be Startin' Somethin'", "NSO0QzDCTvI"),
     ("Dirty Diana", "tAFZaJ3w0ng"),
     ("Working Day and Night", "tbljkx981H4"),
-   ("Jam", "mKqQg5b6y34"),
+    ("Jam", "mKqQg5b6y34"),
+    ("Rock with You", "FxVhw1vFOx8"),
 ]
 HTML = """
 <!DOCTYPE html>

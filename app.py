@@ -21,6 +21,7 @@ musicas = [
     ("Wanna Be Startin' Somethin'", "NSO0QzDCTvI"),
     ("Dirty Diana", "tAFZaJ3w0ng"),
     ("Working Day and Night", "tbljkx981H4"),
+   ("Jam", "mKqQg5b6y34"),
 ]
 HTML = """
 <!DOCTYPE html>

@@ -23,6 +23,7 @@ musicas = [
     ("Working Day and Night", "tbljkx981H4"),
     ("Jam", "mKqQg5b6y34"),
     ("Rock with You", "FxVhw1vFOx8"),
+    ("I Want You Back / The Love You Save (1988)", "GOROj_riqAk"),
 ]
 HTML = """
 <!DOCTYPE html>

@@ -157,4 +157,4 @@ def inicio():
     return render_template_string(HTML, musicas=musicas)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True) 
